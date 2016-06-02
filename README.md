@@ -1,10 +1,10 @@
 # Chip-8-Interpreter
-A simple Chip-8 emulator
+A simple Chip-8 emulator (still has a few bugs)
 
 
 ## How to use
 Run in the command line:
-Chip-8-Interpreter.exe GameNameS
+Chip-8-Interpreter.exe GameNames
 
 Or
 
