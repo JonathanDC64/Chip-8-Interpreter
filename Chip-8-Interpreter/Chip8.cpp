@@ -613,31 +613,6 @@ void Chip8::RND()
 //Display n-byte sprite starting at memory location I at (Vx, Vy), set VF = collision.
 void Chip8::DRW()
 {
-	//unsigned short x = V[(opcode & 0x0F00) >> 8];
-	//unsigned short y = V[(opcode & 0x00F0) >> 4];
-	//unsigned short height = opcode & 0x000F;
-	//unsigned short pixel;
-
-	//V[0xF] = 0;
-	//for (int yline = 0; yline < height; yline++)
-	//{
-	//	pixel = memory[I + yline];
-	//	for (int xline = 0; xline < 8; xline++)
-	//	{
-	//		if ((pixel & (0x80 >> xline)) != 0)
-	//		{
-	//			if (gfx[y + yline][x + xline] == 1)
-	//			{
-	//				V[0xF] = 1;
-	//			}
-	//			gfx[y + yline][x + xline] ^= 1;
-	//		}
-	//	}
-	//}
-
-	//drawFlag = true;
-	//pc += 2;
-
 	unsigned short x = V[(opcode & 0x0F00) >> 8];
 	unsigned short y = V[(opcode & 0x00F0) >> 4];
 	unsigned short N = (opcode & 0x000F);//height
