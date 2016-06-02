@@ -11,7 +11,7 @@ Or drag game on the Chip-8-Interpreter.exe file
 
 
 ## Controls
-
+<pre>
 Original:				 Emulator:
 Keypad                   Keyboard
 ---------                ---------
@@ -23,3 +23,4 @@ Keypad                   Keyboard
 ---------                ---------
 |A|0|B|F|       ->       |Z|X|C|V|
 ---------                ---------
+</pre>
