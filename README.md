@@ -4,10 +4,15 @@ A simple Chip-8 emulator
 
 ## How to use
 Run in the command line:
-Chip-8-Interpreter.exe GameNam
+Chip-8-Interpreter.exe GameNameS
 
+Or
 
-Or drag game on the Chip-8-Interpreter.exe file
+Drag game on the Chip-8-Interpreter.exe file
+
+Or
+
+Add path to game in project settings -> debugging -> Command Arguments
 
 
 ## Controls
