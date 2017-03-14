@@ -57,6 +57,8 @@ void Chip8::executeCycle()
 	// Fetch Opcode
 	opcode = memory[pc] << 8 | memory[pc + 1];
 
+	printf("opcode: %X pc: %d\n", opcode, pc);
+
 	// Decode Opcode
 	switch (opcode & 0xF000) // first 4 bits of the opcode
 	{
@@ -310,6 +312,8 @@ void Chip8::executeCycle()
 
 		--sound_timer;
 	}
+
+	//system("pause");
 }
 
 void Chip8::loadGame(std::string gamePath)
